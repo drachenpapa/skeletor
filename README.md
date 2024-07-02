@@ -12,6 +12,7 @@ Mwahaha! Behold the ultimate template repository, forged in the fires of code ch
   - **Support Requests:** Seek help or clarification for any issues you encounter.
   - **Pull Requests:** Ensure consistent and well-documented contributions.
 - **Codeowners:** Clearly define code ownership and responsibilities.
+- **Code of Conduct:** Ensuring a harassment-free and inclusive experience for all members of our community.
 
 
 ## License
