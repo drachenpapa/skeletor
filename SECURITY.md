@@ -4,7 +4,7 @@ If you believe you have found a security vulnerability in one of our maintained 
 
 ## Supported Versions
 
-| Version | Supported          |
+| Version | Supported           |
 |---------|---------------------|
 | 1.0.0   | :white_check_mark:  |
 
