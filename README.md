@@ -6,16 +6,17 @@ Mwahaha! Behold the ultimate template repository, forged in the fires of code ch
 
 
 ## Features
-- **Bodacious Issue and Pull Request Templates:** Predefined templates for efficient issue tracking and pull request submissions.
-  - **Bug Reports:** Create detailed bug reports with our comprehensive template.
-  - **Feature Requests:** Suggest new features and enhancements.
-  - **Support Requests:** Seek help or clarification for any issues you encounter.
-  - **Pull Requests:** Ensure consistent and well-documented contributions.
-- **Codeowners:** Clearly define code ownership and responsibilities.
-- **Code of Conduct:** Ensuring a harassment-free and inclusive experience for all members of our community.
+- **Bodacious Issue and Pull Request Templates**: Predefined templates for efficient issue tracking and pull request submissions.
+  - **Bug Reports**: Create detailed bug reports with our comprehensive template.
+  - **Feature Requests**: Suggest new features and enhancements.
+  - **Support Requests**: Seek help or clarification for any issues you encounter.
+  - **Pull Requests**: Ensure consistent and well-documented contributions.
+- **Codeowners**: Clearly define code ownership and responsibilities.
+- **Code of Conduct**: Ensuring a harassment-free and inclusive experience for all members of our community.
 responsibilities.
-- **Support Guidelines:** Guidelines for asking questions, reporting bugs, and seeking help.
-- **Security Policy:** Policies and procedures for reporting and handling security vulnerabilities.
+- **Support Guidelines**: Guidelines for asking questions, reporting bugs, and seeking help.
+- **Wicked Security Policy**: Policies and procedures for reporting and handling security vulnerabilities.
+- **Totally tubular contributing guidelines**:
 
 
 ## Adjustments When Forking
