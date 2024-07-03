@@ -13,6 +13,20 @@ Mwahaha! Behold the ultimate template repository, forged in the fires of code ch
   - **Pull Requests:** Ensure consistent and well-documented contributions.
 - **Codeowners:** Clearly define code ownership and responsibilities.
 - **Code of Conduct:** Ensuring a harassment-free and inclusive experience for all members of our community.
+responsibilities.
+- **Support Guidelines:** Guidelines for asking questions, reporting bugs, and seeking help.
+- **Security Policy:** Policies and procedures for reporting and handling security vulnerabilities.
+
+
+## Adjustments When Forking
+When you fork this repository, you will need to update several files to match your project’s specific details. These include:
+- **ˋCITATION.cffˋ**: 
+- **`CODEOWNERS`**: Update with the GitHub usernames of the people who will maintain the forked repository.
+- **ˋCONTRIBUTING.mdˋ**:
+- **Issue and Pull Request Templates**: Ensure that any url's are updated.
+- **`SUPPORT.md`**: Update any references for reporting and check what license matches your project.
+- **`SECURITY.md`**: Ensure that the contact information for reporting security vulnerabilities is updated to the appropriate contact for your project.
+- **`README.md`**: Create your own readme file.
 
 
 ## License
