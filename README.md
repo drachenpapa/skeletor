@@ -10,14 +10,15 @@ Mwahaha! Feast your eyes on the ultimate template repository, conjured from the 
   - **Feature Requests**: Propose new features and enhancements, if you dare.
   - **Support Requests**: Seek help or clarification for any issues you encounter, under my watchful eye.
   - **Pull Requests**: Ensure consistent and well-documented contributions, as decreed by Skeletor!
-- **Radical Codeowners**: Clearly define code ownership and responsibilities, ensuring my minions know their duties.
-- **Righteous Code of Conduct**: Ensuring a harassment-free and inclusive experience for all members of our community, or suffer my wrath.
-- **Diabolical Support Guidelines**: Guidelines for asking questions, reporting bugs, and seeking help, as dictated by me.
-- **Sinister Security Policy**: Policies and procedures for reporting and handling security vulnerabilities, under my strict control.
-- **Totally Tubular Contributing Guidelines**: Comprehensive guidelines to help contributors make meaningful and consistent contributions, worthy of my domain.
-- **Stellar Automated Workflow**: Automated workflow for validating pull requests, security analysis with Snyk and CodeQL, and dependency scanning, all under my command.
 - **Gnarly Citation file**: A citation file to give proper credit for using this repository, as demanded by Skeletor!
+- **Righteous Code of Conduct**: Ensuring a harassment-free and inclusive experience for all members of our community, or suffer my wrath.
+- **Radical Codeowners**: Clearly define code ownership and responsibilities, ensuring my minions know their duties.
+- **Totally Tubular Contributing Guidelines**: Comprehensive guidelines to help contributors make meaningful and consistent contributions, worthy of my domain.
 - **Rad Renovate Configuration**: Automated dependency updates with customizable reviewer settings, ensuring my approval.
+- **Sinister Security Policy**: Policies and procedures for reporting and handling security vulnerabilities, under my strict control.
+- **Diabolical Support Guidelines**: Guidelines for asking questions, reporting bugs, and seeking help, as dictated by me.
+- **Stellar Automated Workflow**: Automated workflow for validating pull requests, security analysis with Snyk and CodeQL, and dependency scanning, all under my command.
+- **Savage .gitignore File**: Prevents clutter by ignoring unnecessary files from IDEs, build tools, and operating systems, keeping your domain pristine!
 
 ## Adjustments When Forking
 When you fork this repository, you will need to update several files to match your project’s specific details. These include:
