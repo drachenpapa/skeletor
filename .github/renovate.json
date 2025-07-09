@@ -6,6 +6,7 @@
     ":automergePatch",
     ":dependencyDashboard",
     ":label(dependencies)",
+    ":assignee(drachenpapa)",
     ":reviewer(drachenpapa)",
     "schedule:nonOfficeHours",
     ":semanticCommits",
