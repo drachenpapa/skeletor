@@ -30,7 +30,7 @@ When you fork this repository, you will need to update several files to match yo
 - **`SECURITY.md`**: Ensure that the contact information for reporting security vulnerabilities is updated to the appropriate contact for your project.
 - **`README.md`**: Create your own readme file to reflect your project’s purpose and details.
 - **Workflows**: Adjust the workflows to match the programming languages and tools used in your project.
-- **Renovate Configuration**: Update the reviewer settings and other configurations as needed.
+- **Renovate Configuration**: Remove the default.json and update configurations as needed.
 
 ## Why *Skeletor*?
 This repository contains all the necessary special files to kickstart a project on GitHub. It is meant to be the base, or a skeleton, hence the name *Skeletor*.
