@@ -3,7 +3,7 @@
   "description": "Drachenpapa's default renovate configuration",
   "extends": [
     "config:recommended",
-    ":automergeMinor",
+    ":automergePatch",
     ":dependencyDashboard",
     ":label(dependencies)",
     ":assignee(drachenpapa)",
