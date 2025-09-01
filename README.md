@@ -19,6 +19,7 @@ Mwahaha! Feast your eyes on the ultimate template repository, conjured from the 
 - **Diabolical Support Guidelines**: Guidelines for asking questions, reporting bugs, and seeking help, as dictated by me.
 - **Stellar Automated Workflow**: Automated workflow for validating pull requests, security analysis with Snyk and CodeQL, and dependency scanning, all under my command.
 - **Savage .gitignore File**: Prevents clutter by ignoring unnecessary files from IDEs, build tools, and operating systems, keeping your domain pristine!
+- **Eerie GitHub Pages Template**: Summon a sinister project site with a pre-forged GitHub Pages template, ready to spread your dark influence across the web!
 
 ## Adjustments When Forking
 When you fork this repository, you will need to update several files to match your project’s specific details. These include:
@@ -31,6 +32,7 @@ When you fork this repository, you will need to update several files to match yo
 - **`README.md`**: Create your own readme file to reflect your project’s purpose and details.
 - **Workflows**: Adjust the workflows to match the programming languages and tools used in your project.
 - **Renovate Configuration**: Remove the default.json and update configurations as needed.
+- **GitHub Pages**: If you plan to use GitHub Pages, set it up in the repository settings and update the site content in the `docs` directory.
 
 ## Why *Skeletor*?
 This repository contains all the necessary special files to kickstart a project on GitHub. It is meant to be the base, or a skeleton, hence the name *Skeletor*.

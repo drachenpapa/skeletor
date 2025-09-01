@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Skeletor</title>
+    <meta name="language" content="en">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+<header>
+    <h1>Skeletor</h1>
+    <nav>
+        <a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}active{% endif %}">Overview</a>
+        <a href="https://github.com/drachenpapa/skeletor" target="_blank">GitHub</a>
+    </nav>
+</header>
+
+<main>
+    {{ content }}
+</main>
+
+<footer>
+    <p>&copy; 2025 <a href="https://github.com/drachenpapa">Drachenpapa</a></p>
+</footer>
+
+<script src="{{ '/assets/script.js' | relative_url }}"></script>
+</body>
+</html>
