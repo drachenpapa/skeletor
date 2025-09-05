@@ -1,7 +1,19 @@
+:root {
+    --bg: #f9f9f9;
+    --text: #222;
+    --header-bg: #1d1d3c;
+    --header-text: #f9fafb;
+    --anchor-active: #e1aa2a;
+    --anchor-hover: #e10600;
+    --main-bg: #fff;
+    --footer-bg: #f9f9f9;
+    --footer-text: #777;
+}
+
 body {
     font-family: Arial, sans-serif;
-    background: #f9f9f9;
-    color: #222;
+    background: var(--bg);
+    color: var(--text);
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -9,29 +21,29 @@ body {
 }
 
 header {
-    background: #1d1d3c;
-    color: #f9fafb;
+    background: var(--header-bg);
+    color: var(--header-text);
     padding: 1em;
     text-align: center;
 }
 
 nav a {
-    color: #f9fafb;
+    color: var(--header-text);
     margin: 0 10px;
     text-decoration: none;
 }
 
 nav a.active {
-    color: #e1aa2a;
+    color: var(--anchor-active);
 }
 
 nav a:hover {
-    color: #e10600;
+    color: var(--anchor-hover);
     text-decoration: underline;
 }
 
 main {
-    background: white;
+    background: var(--main-bg);
     border-radius: 8px;
     flex: 1;
     margin: 20px auto;
@@ -40,13 +52,13 @@ main {
 }
 
 footer {
-    background: #f9f9f9;
-    color: #777;
+    background: var(--footer-bg);
+    color: var(--footer-text);
     font-size: 12px;
     padding: 1em;
     text-align: center;
 }
 
 footer a {
-    color: #777;
+    color: var(--footer-text);
 }
