@@ -10,7 +10,10 @@
 </head>
 <body>
 <header>
-    <img src="{{ '/assets/logo.png' | relative_url }}" alt="Skeletor" style="height: 150px;"/> <h1>SKELETOR</h1>
+    <h1>
+        <img src="{{ '/assets/logo.png' | relative_url }}" alt="Skeletor" style="height: 150px; vertical-align: middle"/>
+        Skeletor
+    </h1>
     <nav>
         <a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}active{% endif %}">Overview</a>
         <a href="https://github.com/drachenpapa/skeletor" target="_blank">GitHub</a>
