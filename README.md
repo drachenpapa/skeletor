@@ -1,4 +1,7 @@
-# Skeletor Template Repository
+<h1 align="center">
+    <img src="docs/assets/logo.png" alt="Skeletor project logo" height="100px" align="center">
+    Skeletor Template Repository
+</h1>
 
 ![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)
 
