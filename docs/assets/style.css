@@ -27,6 +27,10 @@ header {
     text-align: center;
 }
 
+header h1 {
+    margin: 0;
+}
+
 nav a {
     color: var(--header-text);
     margin: 0 10px;
