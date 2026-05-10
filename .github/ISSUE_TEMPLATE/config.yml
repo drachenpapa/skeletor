@@ -1,1 +1,8 @@
 blank_issues_enabled: false
+contact_links:
+  - name: 💬 GitHub Discussions
+    url: https://github.com/drachenpapa/skeletor/discussions
+    about: Ask questions and discuss the project with the community.
+  - name: 📖 Documentation
+    url: https://drachenpapa.github.io/skeletor
+    about: Read the project documentation.
