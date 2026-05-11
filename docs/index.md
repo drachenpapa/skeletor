@@ -2,11 +2,6 @@
 layout: default
 ---
 
-<h1 align="center">
-    <img src="{{ '/assets/logo.png' | relative_url }}" alt="Skeletor project logo" height="100px" align="center">
-    Skeletor Template Repository
-</h1>
-
 ![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)
 
 Mwahaha! Feast your eyes on the ultimate template repository, conjured from the depths of my sinister genius! This rad collection arms you with all the gnarly tools to dominate your project setup like never before!
