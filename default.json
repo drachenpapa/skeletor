@@ -4,17 +4,17 @@
   "extends": [
     "config:recommended",
     ":automergePatch",
-    ":dependencyDashboard",
-    ":label(dependencies)",
-    ":assignee(drachenpapa)",
-    ":reviewer(drachenpapa)",
     "schedule:nonOfficeHours",
-    ":semanticCommits",
-    ":semanticCommitTypeAll(build)",
-    ":semanticCommitScope(deps)",
-    ":timezone(Europe/Berlin)",
-    ":pinDigests"
+    ":timezone(Europe/Berlin)"
   ],
+  "dependencyDashboard": true,
+  "assignees": ["drachenpapa"],
+  "reviewers": ["drachenpapa"],
+  "labels": ["dependencies"],
+  "osvVulnerabilityAlerts": true,
   "minimumReleaseAge": "3 days",
-  "osvVulnerabilityAlerts": true
+  "pinDigests": true,
+  "semanticCommits": "enabled",
+  "semanticCommitType": "build",
+  "semanticCommitScope": "deps"
 }
