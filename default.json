@@ -13,7 +13,7 @@
     ":semanticCommitTypeAll(build)",
     ":semanticCommitScope(deps)",
     ":timezone(Europe/Berlin)",
-    ":pinDigest"
+    ":pinDigests"
   ],
   "minimumReleaseAge": "3 days",
   "osvVulnerabilityAlerts": true
