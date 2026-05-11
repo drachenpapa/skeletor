@@ -3,18 +3,18 @@
   "description": "Drachenpapa's default renovate configuration",
   "extends": [
     "config:recommended",
-    ":automergePatch",
     "schedule:nonOfficeHours",
-    ":timezone(Europe/Berlin)"
+    ":timezone(Europe/Berlin)",
+    ":automergePatch",
+    ":pinDigests",
+    ":dependencyDashboard",
+    ":label(dependencies)",
+    ":assignee(drachenpapa)",
+    ":reviewer(drachenpapa)",
+    ":semanticCommits",
+    ":semanticCommitTypeAll(build)",
+    ":semanticCommitScope(deps)"
   ],
-  "dependencyDashboard": true,
-  "assignees": ["drachenpapa"],
-  "reviewers": ["drachenpapa"],
-  "labels": ["dependencies"],
   "osvVulnerabilityAlerts": true,
-  "minimumReleaseAge": "3 days",
-  "pinDigests": true,
-  "semanticCommits": "enabled",
-  "semanticCommitType": "build",
-  "semanticCommitScope": "deps"
+  "minimumReleaseAge": "3 days"
 }
