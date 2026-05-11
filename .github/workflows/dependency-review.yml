@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
 
       - name: Dependency review
-        uses: actions/dependency-review-action@5a2ce3d540e1c3e1b526ebffbc52fa3ef8b1c94b
+        uses: actions/dependency-review-action@5a2ce3d540e1c3e1b526ebffbc52fa3ef8b1c94b # v5.0.0
