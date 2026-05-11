@@ -1,5 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Drachenpapa's default renovate configuration",
+  "description": "TODO (fork): Remove the 'extends' line below and define your own Renovate rules here. The current entry reuses drachenpapa/skeletor as a Renovate preset — after forking it still points to the original repo, not yours.",
   "extends": ["github>drachenpapa/skeletor"]
 }

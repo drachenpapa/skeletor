@@ -1,0 +1,34 @@
+name: SBOM
+
+on:
+  push:
+    branches:
+      - main
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+jobs:
+  sbom:
+    name: Generate SBOM
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
+
+      - name: Generate SBOM
+        uses: anchore/sbom-action@42f6d1dfc5d512b0fef2c3e7a7d5f3960c6f1d10 # v0
+        with:
+          format: cyclonedx-json
+          output-file: sbom.cdx.json
+
+      - name: Upload SBOM as workflow artifact
+        uses: actions/upload-artifact@65462800fd760344b1a7b4382951275a0abb4808 # v4.3.3
+        with:
+          name: sbom
+          path: sbom.cdx.json
+          retention-days: 90

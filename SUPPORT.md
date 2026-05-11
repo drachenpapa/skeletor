@@ -38,9 +38,7 @@ The issue templates will guide you on making an effective report.
 ## How to Report a Security Vulnerability
 
 If you think you've found a potential vulnerability in this project,
-please directly message [@drachenpapa](https://github.com/drachenpapa/) to responsibly disclose it.
-We will address the issue as soon as possible.
-We appreciate your efforts to disclose the issue privately and give us an opportunity to fix it before disclosing it publicly.
+please follow the instructions in our [Security Policy](SECURITY.md) to responsibly disclose it.
 
 ## Contributions
 

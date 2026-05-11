@@ -1,13 +1,18 @@
 cff-version: 1.2.0
 message: If you use Skeletor in your research, please cite it using the following metadata.
+type: software
 authors:
   - family-names: Steinberg
     given-names: Henning
+    # TODO (fork): Add your ORCID iD once you have one (https://orcid.org/register)
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
 title: "Skeletor"
 version: 1.0.0
-date-released: 2024-07-04
+date-released: 2026-05-11
 url: https://github.com/drachenpapa/skeletor
 repository-code: https://github.com/drachenpapa/skeletor
+# TODO (fork): Add your Zenodo DOI once published (https://zenodo.org)
+# doi: "10.5281/zenodo.0000000"
 license: CC BY 4.0
 keywords:
   - template

@@ -1,37 +1,23 @@
-# Compiled class files
-*.class
-
-# Log files
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# IntelliJ IDEA files
+# ============================================================
+# IDEs & editors
+# ============================================================
+# IntelliJ IDEA
 .idea/
 *.iml
 *.iws
 *.ipr
-out/
 
-# Eclipse files
+# Eclipse
 .project
 .classpath
 .settings/
-target/
 
-# VS Code files
+# VS Code
 .vscode/
 
+# ============================================================
 # OS-specific files
+# ============================================================
 # Windows
 Thumbs.db
 ehthumbs.db
@@ -49,8 +35,64 @@ Icon\r
 *~
 .nfs*
 
-# Maven
+# ============================================================
+# Other
+# ============================================================
+bin/
+*.swp
+
+# Common build output directory (used by Maven, Gradle, Rust, etc.)
 target/
+
+# ============================================================
+# Go
+# ============================================================
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# Coverage output
+*.out
+
+# Dependency directory
+vendor/
+
+# Go workspace
+go.work
+go.work.sum
+
+# ============================================================
+# Java
+# ============================================================
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.nar
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# Maven
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -59,9 +101,77 @@ pom.xml.next
 # Gradle
 .gradle/
 build/
-.gradle/
-build/
 
-# Other
-bin/
-*.swp
+# ============================================================
+# JavaScript / TypeScript / Node
+# ============================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnp/
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+
+# Environment variables (.env.example and .env.sample may be committed)
+.env
+.env.local
+.env.*.local
+
+# Build output
+.next/
+out/
+.cache/
+.parcel-cache/
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Test & coverage
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# Type checkers & linters
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ============================================================
+# Rust
+# ============================================================
+# Note: target/ is covered in the "Other" section above.
+# Cargo.lock should be committed for applications, not for libraries.
+# Cargo.lock

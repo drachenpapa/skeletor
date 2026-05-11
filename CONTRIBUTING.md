@@ -4,45 +4,45 @@ First off, thank you for considering contributing to this project.
 It's people like you that make this project and open source in general so great.
 
 Following these guidelines helps to communicate that you respect the time of the developers
-managing and developing this open source project. 
+managing and developing this open source project.
 In return, they should reciprocate that respect in addressing your issue, assessing changes,
 and helping you finalize your pull requests.
 
 - [Code of Conduct](#code-of-conduct)
-- [Issues and Bugs](#issues-and-bugs)
-- [Feature Requests](#feature-requests)
+- [Found a Bug?](#found-a-bug)
+- [Missing a Feature?](#missing-a-feature)
 - [Submission Guidelines](#submission-guidelines)
 - [Coding Rules](#coding-rules)
 - [Commit Message Guidelines](#commit-message-guidelines)
 
-## <a name="code-of-conduct"></a> Code of Conduct
+## Code of Conduct
 
 This project adheres to a strict [Code of Conduct](CODE_OF_CONDUCT.md).
 By participating, you are expected to uphold this code.
 Please report any unacceptable behavior to [@drachenpapa](https://github.com/drachenpapa).
 
-## <a name="issues-and-bugs"></a> Found a Bug?
+## Found a Bug?
 
-If you find a bug in the source code, you can help us by [submitting an issue](#submit-issue)
+If you find a bug in the source code, you can help us by [submitting an issue](#submitting-an-issue)
 to our [GitHub Repository](https://github.com/drachenpapa/skeletor/issues).
-Even better, you can [submit a Pull Request](#submit-pr) with a fix.
+Even better, you can [submit a Pull Request](#submitting-a-pull-request-pr) with a fix.
 
-## <a name="feature-requests"></a> Missing a Feature?
+## Missing a Feature?
 
 If you have an idea for a new feature, we'd love to hear it!
 Please [submit an issue](https://github.com/drachenpapa/skeletor/issues/new/choose) with details
 about the feature and how it would benefit the project.
 
-## <a name="submission-guidelines"></a> Submission Guidelines
+## Submission Guidelines
 
-### <a name="submit-issue"></a> Submitting an Issue
+### Submitting an Issue
 
 Before you submit an issue, please search the issue tracker.
 An issue for your problem might already exist, and the discussion might inform you of workarounds readily available.
 
 We want to fix all the issues as soon as possible, but before fixing a bug, we need to reproduce and confirm it.
 In order to reproduce bugs, we require that you provide a minimal reproduction.
-Having a minimal reproducible scenario gives us a wealth of important information 
+Having a minimal reproducible scenario gives us a wealth of important information
 without going back and forth with additional questions.
 
 A minimal reproduction allows us to quickly confirm a bug (or point out a coding problem)
@@ -54,21 +54,27 @@ so if we don't hear back from you, we are going to close an issue that doesn't h
 You can file new issues by selecting from our [new issue templates](https://github.com/drachenpapa/skeletor/issues/new/choose)
 and filling out the issue template.
 
-### <a name="submit-pr"></a> Submitting a Pull Request (PR)
+### Submitting a Pull Request (PR)
 
 1. Fork the repository.
-2. Create your feature branch: `git checkout -b my-new-feature`.
-3. Commit your changes: `git commit -m 'feat: add some feature'`.
-4. Push to the branch: `git push origin my-new-feature`.
-5. Submit a pull request.
+2. Create your feature branch: `git checkout -b feat/my-new-feature`.
+3. Commit your changes following the [Commit Message Guidelines](#commit-message-guidelines).
+4. Push to the branch: `git push origin feat/my-new-feature`.
+5. Open a **[Draft Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests#draft-pull-requests)** early to signal work in progress and get feedback.
+6. Mark the PR as **Ready for Review** once your changes are complete and all checks pass.
 
-## <a name="coding-rules"></a> Coding Rules
+## Coding Rules
 
-- All code must adhere to the project's coding standards and guidelines.
-- Ensure all tests pass and add new tests for your code if necessary.
-- Write clear and concise commit messages.
+<!-- TODO (fork): Replace this section with your project-specific coding standards. Examples:
+     - Linter / formatter: link to your ESLint, Ruff, Checkstyle, etc. config
+     - Minimum test coverage threshold (e.g. 80 %)
+     - Naming conventions for files, classes, variables
+     - Link to your style guide or ADRs
+-->
+> ⚠️ **This section is intentionally left as a placeholder in the template.**
+> After forking, define your project-specific coding standards here.
 
-## <a name="commit-message-guidelines"></a> Commit Message Guidelines
+## Commit Message Guidelines
 
 A good commit message serves at least three important purposes:
 - To speed up the reviewing process.
@@ -83,17 +89,19 @@ Each commit message consists of a **header** and a **body**.
 <body>
 ```
 
-The header is mandatory and the body and footer are optional.
+The header is mandatory and the body is optional.
 
-### <a name="commit-header"></a> Commit Message Header
+### Commit Message Header
 
 For the commit message header, we loosely follow the semantic commit message format.
 ```
-<type>: <short summary>
-  │             │
-  │             └─⫸ Summary in a few words.
+<type>(<scope>): <short summary>
+  │       │              │
+  │       │              └─⫸ Summary in a few words.
+  │       │
+  │       └─⫸ Scope (optional): affected area, e.g. auth|api|ui
   │
-  └─⫸ Commit Type: build|chore|ci|docs|feat|fix|refactor|revert|test
+  └─⫸ Commit Type: build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test
 ```
 
 Both the `<type>` and `<summary>` fields are mandatory.
@@ -102,13 +110,15 @@ Both the `<type>` and `<summary>` fields are mandatory.
 
 Must be one of the following:
 * **build**: Changes that affect the build system or external dependencies.
-* **chore**: Other changes that don't modify src or test files, updating grunt tasks etc; no production code change.
-* **ci**: Changes to our CI configuration files and scripts (example: GitHub actions).
+* **chore**: Other changes that don't modify src or test files; no production code change.
+* **ci**: Changes to our CI configuration files and scripts (example: GitHub Actions).
 * **docs**: Changes to our documentation.
 * **feat**: A new feature for the user, not a new feature for build scripts.
 * **fix**: A bug fix for the user, not a fix to a build script.
-* **refactor**: A code change that neither fixes a bug nor adds a feature, eg. renaming a variable, format changes, or performance improvements.
+* **perf**: A code change that improves performance without fixing a bug or adding a feature.
+* **refactor**: A code change that neither fixes a bug nor adds a feature, e.g. renaming a variable or restructuring code without changing its external behavior.
 * **revert**: Reverts a previous commit.
+* **style**: Changes that do not affect the meaning of the code (formatting, missing semicolons, whitespace, etc.); no logic change.
 * **test**: Adding missing tests or refactoring existing tests; no production code change.
 
 #### Summary
@@ -118,7 +128,7 @@ Use the summary field to provide a succinct description of the change:
 * Don't capitalize the first letter.
 * No dot (.) at the end.
 
-### <a name="commit-body"></a> Commit Message Body
+### Commit Message Body
 
 The body must be used to inform about breaking changes or deprecations and is also the place to reference GitHub issues that this commit closes or is related to.
 
