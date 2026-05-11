@@ -6,7 +6,6 @@
     "schedule:nonOfficeHours",
     ":timezone(Europe/Berlin)",
     ":automergePatch",
-    ":pinDigests",
     ":dependencyDashboard",
     ":label(dependencies)",
     ":assignee(drachenpapa)",
@@ -15,6 +14,7 @@
     ":semanticCommitTypeAll(build)",
     ":semanticCommitScope(deps)"
   ],
+  "minimumReleaseAge": "3 days",
   "osvVulnerabilityAlerts": true,
-  "minimumReleaseAge": "3 days"
+  "pinDigests": true
 }
