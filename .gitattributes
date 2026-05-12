@@ -10,6 +10,11 @@
 *.go          text
 *.rs          text
 
+# Windows script files - enforce CRLF line endings
+*.bat         text eol=crlf
+*.cmd         text eol=crlf
+*.ps1         text eol=crlf
+
 # Config & data files
 *.json        text
 *.yaml        text
