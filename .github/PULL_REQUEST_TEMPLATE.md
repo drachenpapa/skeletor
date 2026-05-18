@@ -3,15 +3,13 @@ Before you submit a pull request, please make sure you have the following:
 <!-- Go over all the following points, and put an `x` in all the boxes that apply.
 If you're unsure about any of these, don't hesitate to ask. I'm here to help! -->
 - [ ] My code follows the code style of this project.
-- [ ] My commit message follows the [specified format](CONTRIBUTING.md#commit-message-guidelines).
 - [ ] I have reviewed and updated the documentation where needed.
-- [ ] I have read the [CONTRIBUTING](CONTRIBUTING.md) document.
+- [ ] I have read the [Contributing Guidelines](CONTRIBUTING.md).
 
 ## Related Issue
-<!-- This project only accepts pull requests related to open issues.
-    - If suggesting a new feature or change, please discuss it in an issue first.
-    - If fixing a bug, there should be an issue describing it with steps to reproduce.
-    Please link to the issue here: -->
+<!-- For larger changes, please discuss the proposal in an issue first.
+    Very small fixes (for example typos or wording) can be submitted directly.
+    Please link any related issue here when available: -->
 Issue Number: #
 
 ## What is the current behavior?

@@ -1,7 +1,7 @@
 name: Support request
 description: Ask for help or seek clarification about the project
 title: "[SUPPORT] "
-labels: ["help wanted"]
+labels: ["question"]
 # TODO (fork): Replace with your own GitHub username(s), or remove this field entirely.
 assignees:
   - drachenpapa
