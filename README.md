@@ -14,12 +14,12 @@ Mwahaha! Feast your eyes on the ultimate template repository, conjured from the 
   - **Support Requests**: Seek help or clarification for any issues you encounter, under my watchful eye.
   - **Pull Requests**: Ensure consistent and well-documented contributions, as decreed by Skeletor!
 - **Gnarly Citation file**: A citation file to give proper credit for using this repository, as demanded by Skeletor!
-- **Righteous Code of Conduct**: Ensuring a harassment-free and inclusive experience for all members of our community, or suffer my wrath.
+- **Righteous Code of Conduct**: A short, practical code for respectful and constructive collaboration, or suffer my wrath.
 - **Radical Codeowners**: Clearly define code ownership and responsibilities, ensuring my minions know their duties.
-- **Totally Tubular Contributing Guidelines**: Comprehensive guidelines to help contributors make meaningful and consistent contributions, worthy of my domain.
+- **Totally Tubular Contributing Guidelines**: Clear contribution flow for issues, commits, and focused pull requests, as decreed from Snake Mountain.
 - **Rad Renovate Configuration**: Automated dependency updates with customizable reviewer settings, ensuring my approval.
-- **Sinister Security Policy**: Policies and procedures for reporting and handling security vulnerabilities, under my strict control.
-- **Diabolical Support Guidelines**: Guidelines for asking questions, reporting bugs, and seeking help, as dictated by me.
+- **Sinister Security Policy**: Private and minimal guidance for responsible vulnerability reporting - reveal secrets publicly and incur my wrath.
+- **Diabolical Support & Help Guide**: The fast route for support requests, bug reports, and feature ideas, all routed through my dark command center.
 - **Savage .gitignore File**: Prevents clutter by ignoring unnecessary files from IDEs, build tools, and operating systems, keeping your domain pristine!
 - **Wicked .gitattributes File**: Enforces consistent line endings (LF) across all platforms and correctly marks binary files — no more CRLF chaos from Windows contributors!
 - **Tubular .editorconfig File**: Enforces consistent formatting rules (indentation, charset, trailing whitespace) across all editors and IDEs without additional plugins!
@@ -30,6 +30,7 @@ Mwahaha! Feast your eyes on the ultimate template repository, conjured from the 
 ## Adjustments When Forking
 When you fork this repository, you will need to update several files to match your project’s specific details. These include:
 - **`CITATION.cff`**: Update the citation file with your project’s specific details.
+- **`CODE_OF_CONDUCT.md`**: Adjust behavior and reporting text to match your project's tone and contact channel.
 - **`CODEOWNERS`**: Update with the GitHub usernames of the people who will maintain the forked repository.
 - **`CONTRIBUTING.md`**: Tailor the contributing guidelines to fit your project's contribution process.
 - **`.editorconfig`**: Adjust the indent sizes to match your project's coding conventions.
