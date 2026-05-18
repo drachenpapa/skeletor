@@ -4,7 +4,7 @@ Before you submit a pull request, please make sure you have the following:
 If you're unsure about any of these, don't hesitate to ask. -->
 - [ ] My code follows the code style of this project.
 - [ ] I have reviewed and updated the documentation where needed.
-- [ ] I have read the [Contributing Guidelines](CONTRIBUTING.md).
+- [ ] I have read the [Contributing Guidelines](https://github.com/drachenpapa/skeletor/blob/main/CONTRIBUTING.md).
 
 ## Related Issue
 <!-- For larger changes, please discuss the proposal in an issue first.
