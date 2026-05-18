@@ -1,7 +1,7 @@
 ## Pull request checklist
 Before you submit a pull request, please make sure you have the following:
 <!-- Go over all the following points, and put an `x` in all the boxes that apply.
-If you're unsure about any of these, don't hesitate to ask. I'm here to help! -->
+If you're unsure about any of these, don't hesitate to ask. -->
 - [ ] My code follows the code style of this project.
 - [ ] I have reviewed and updated the documentation where needed.
 - [ ] I have read the [Contributing Guidelines](CONTRIBUTING.md).

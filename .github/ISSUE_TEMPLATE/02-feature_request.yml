@@ -8,7 +8,7 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: "Have a great idea? We'd love to hear it!"
+      value: "Have an idea? We'd love to review your proposal."
   - type: textarea
     id: problem
     attributes:

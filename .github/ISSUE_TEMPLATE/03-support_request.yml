@@ -8,7 +8,7 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: "Before opening a support request, please check the [documentation](https://github.com/drachenpapa/skeletor#readme) and existing issues."
+      value: "Before opening a support request, please check [Support & Help](https://github.com/drachenpapa/skeletor/blob/main/SUPPORT.md) and existing issues."
   - type: textarea
     id: description
     attributes:
