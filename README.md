@@ -13,6 +13,7 @@ Mwahaha! Feast your eyes on the ultimate template repository, conjured from the 
   - **Feature Requests**: Propose new features and enhancements, if you dare.
   - **Support Requests**: Seek help or clarification for any issues you encounter, under my watchful eye.
   - **Pull Requests**: Ensure consistent and well-documented contributions, as decreed by Skeletor!
+- **Spectacular Agents Documentation**: Guidelines for AI coding agents to maintain code quality, security, and readability.
 - **Gnarly Citation file**: A citation file to give proper credit for using this repository, as demanded by Skeletor!
 - **Righteous Code of Conduct**: A short, practical code for respectful and constructive collaboration, or suffer my wrath.
 - **Radical Codeowners**: Clearly define code ownership and responsibilities, ensuring my minions know their duties.
